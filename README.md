@@ -16,6 +16,10 @@ A lightweight, dependency-free web-based terminal that cross-compiles natively f
 
 **Deployment (ADB / Android device)**
 - **Prerequisites:** `adb` installed, USB debugging enabled on device, device visible in `adb devices`.
+- **Fast build (recommended):**
+```bash
+./scripts/build_android.sh
+```
 - **Build on host (example for arm64):**
 ```bash
 # from project root
